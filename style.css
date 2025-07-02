@@ -8,7 +8,7 @@ body {
   font-family: Arial, sans-serif;
   background: linear-gradient(#000000, #111111);
   color: #f2f2f2;
-  font-size: 22px; /* agrandi de 18px à 22px */
+  font-size: 22px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,21 +16,21 @@ body {
 
 header {
   background: #111;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem; /* réduit le padding vertical */
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .logo {
-  height: 120px; /* un peu plus grand */
+  height: 70px; /* logo plus petit */
 }
 
 nav a {
   margin-left: 20px;
   color: #f2f2f2;
   text-decoration: none;
-  font-size: 20px; /* agrandi */
+  font-size: 18px; /* un peu plus petit */
 }
 
 nav a:hover {
@@ -41,29 +41,28 @@ main {
   flex: 1;
   width: 100%;
   padding: 3rem 10%;
-  font-size: 24px; /* agrandi le texte dans main */
+  font-size: 24px;
   line-height: 1.6;
-}
-
-
-h1, h2 {
-  font-size: 36px; /* agrandi de 30px à 36px */
-  margin-bottom: 1rem;
 }
 
 main p, main li {
   font-size: 24px;
 }
 
+h1, h2 {
+  font-size: 36px;
+  margin-bottom: 1rem;
+}
+
 .btn {
   display: inline-block;
   margin: 1rem 1rem 0 0;
-  padding: 0.9rem 1.5rem; /* légèrement plus grand pour le bouton */
+  padding: 0.9rem 1.5rem;
   background: #444;
   color: white;
   text-decoration: none;
   border-radius: 5px;
-  font-size: 20px; /* agrandi */
+  font-size: 20px;
 }
 
 ul, ol {
