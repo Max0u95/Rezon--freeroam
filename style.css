@@ -2,8 +2,9 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(to bottom, #ffffff, #000000);
+  background: linear-gradient(to bottom, #111111, #000000);
   color: #f2f2f2;
+  font-size: 18px;
 }
 
 header {
@@ -22,6 +23,7 @@ nav a {
   margin-left: 15px;
   color: #f2f2f2;
   text-decoration: none;
+  font-size: 18px;
 }
 
 nav a:hover {
@@ -32,6 +34,14 @@ main {
   padding: 2rem;
 }
 
+h1, h2 {
+  font-size: 28px;
+}
+
+p, li {
+  font-size: 18px;
+}
+
 .btn {
   display: inline-block;
   margin: 1rem 1rem 0 0;
@@ -40,6 +50,7 @@ main {
   color: white;
   text-decoration: none;
   border-radius: 5px;
+  font-size: 18px;
 }
 
 ul, ol {
