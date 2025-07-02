@@ -1,51 +1,48 @@
-/* Reset */
+/* Réinitialisation */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Corps de page */
 body {
   font-family: Arial, sans-serif;
   background: linear-gradient(#000000, #111111);
   color: #f2f2f2;
-  font-size: 22px;
+  font-size: 18px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-/* Header */
+/* Barre du haut */
 header {
   background: #111;
-  padding: 0 2rem;
+  padding: 0.5rem 2rem;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  align-items: flex-start; /* ❗ Ne centre plus verticalement, colle en haut */
-  box-sizing: border-box;
+  border-bottom: 2px solid #222;
 }
 
 /* Logo */
 .logo {
-  height: 40px;
+  height: 60px;
   width: auto;
   object-fit: contain;
-  margin-top: 10px; /* si tu veux encore plus le coller en haut */
 }
 
+/* Menu navigation */
 nav {
-  margin-top: 10px; /* pour aligner les boutons avec le logo */
+  display: flex;
+  align-items: center;
 }
 
-/* Navigation */
 nav a {
-  margin-left: 15px;
+  margin-left: 20px;
   color: #f2f2f2;
   text-decoration: none;
-  font-size: 16px;
-  line-height: 1;
-  display: inline-block;
+  font-size: 18px;
 }
 
 nav a:hover {
@@ -57,33 +54,31 @@ main {
   flex: 1;
   width: 100%;
   padding: 3rem 10%;
-  font-size: 24px;
-  line-height: 1.6;
-}
-
-main p, main li {
-  font-size: 24px;
 }
 
 h1, h2 {
-  font-size: 36px;
+  font-size: 32px;
   margin-bottom: 1rem;
 }
 
-/* Boutons */
+p, li {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+ul, ol {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+}
+
+/* Bouton générique */
 .btn {
   display: inline-block;
   margin: 1rem 1rem 0 0;
-  padding: 0.9rem 1.5rem;
+  padding: 0.7rem 1.2rem;
   background: #444;
   color: white;
   text-decoration: none;
   border-radius: 5px;
-  font-size: 20px;
-}
-
-/* Listes */
-ul, ol {
-  margin-top: 1rem;
-  padding-left: 1.5rem;
+  font-size: 18px;
 }
