@@ -9,7 +9,7 @@ body {
   font-family: Arial, sans-serif;
   background: linear-gradient(#000000, #111111);
   color: #f2f2f2;
-  font-size: 80px;
+  font-size: 90px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -52,9 +52,13 @@ nav a:hover {
 /* Contenu principal */
 main {
   flex: 1;
-  width: 100%;
-  padding: 3rem 10%;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto; /* centre horizontalement */
+  padding: 3rem 2rem;
+  text-align: left; /* un peu à gauche */
 }
+
 
 h1, h2 {
   font-size: 32px;
