@@ -1,9 +1,11 @@
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Corps de page */
 body {
   font-family: Arial, sans-serif;
   background: linear-gradient(#000000, #111111);
@@ -14,33 +16,40 @@ body {
   flex-direction: column;
 }
 
+/* Header */
 header {
   background: #111;
-  padding: 0.3rem 2rem; /* padding vertical réduit */
+  height: 60px;              /* Hauteur fixe */
+  padding: 0 2rem;           /* padding horizontal */
   display: flex;
-  align-items: center;
+  align-items: center;       /* centre vertical */
   justify-content: space-between;
-  height: 60px; /* limite la hauteur du header */
   box-sizing: border-box;
+  overflow: hidden;          /* évite débordements */
 }
 
+/* Logo */
 .logo {
-  height: 40px; /* logo plus petit */
-  width: auto;  /* pour garder les proportions */
+  height: 40px;              /* taille fixe */
+  width: auto;
+  object-fit: contain;
 }
 
+/* Navigation */
 nav a {
   margin-left: 15px;
   color: #f2f2f2;
   text-decoration: none;
-  font-size: 16px; /* plus petit pour le menu */
-  line-height: 60px; /* alignement vertical dans le header */
+  font-size: 16px;
+  line-height: 60px;         /* alignement vertical dans header */
+  display: inline-block;
 }
 
 nav a:hover {
   text-decoration: underline;
 }
 
+/* Contenu principal */
 main {
   flex: 1;
   width: 100%;
@@ -58,6 +67,7 @@ h1, h2 {
   margin-bottom: 1rem;
 }
 
+/* Boutons */
 .btn {
   display: inline-block;
   margin: 1rem 1rem 0 0;
@@ -69,6 +79,7 @@ h1, h2 {
   font-size: 20px;
 }
 
+/* Listes */
 ul, ol {
   margin-top: 1rem;
   padding-left: 1.5rem;
