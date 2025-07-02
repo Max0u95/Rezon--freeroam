@@ -19,18 +19,16 @@ body {
 /* Header */
 header {
   background: #111;
-  height: 60px;              /* Hauteur fixe */
-  padding: 0 2rem;           /* padding horizontal */
+  padding: 0.5rem 2rem;
   display: flex;
-  align-items: center;       /* centre vertical */
+  align-items: center; /* centre verticalement */
   justify-content: space-between;
   box-sizing: border-box;
-  overflow: hidden;          /* évite débordements */
 }
 
 /* Logo */
 .logo {
-  height: 40px;              /* taille fixe */
+  height: 40px; /* taille fixe, bien proportionnée */
   width: auto;
   object-fit: contain;
 }
@@ -41,7 +39,7 @@ nav a {
   color: #f2f2f2;
   text-decoration: none;
   font-size: 16px;
-  line-height: 60px;         /* alignement vertical dans header */
+  line-height: 1; /* évite l'espacement inutile */
   display: inline-block;
 }
 
