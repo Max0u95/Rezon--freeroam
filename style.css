@@ -1,0 +1,48 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #ffffff, #000000);
+  color: #f2f2f2;
+}
+
+header {
+  background: #111;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 50px;
+}
+
+nav a {
+  margin-left: 15px;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  margin: 1rem 1rem 0 0;
+  padding: 0.7rem 1.2rem;
+  background: #444;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+ul, ol {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+}
