@@ -16,21 +16,25 @@ body {
 
 header {
   background: #111;
-  padding: 0.5rem 2rem; /* réduit le padding vertical */
+  padding: 0.3rem 2rem; /* padding vertical réduit */
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 60px; /* limite la hauteur du header */
+  box-sizing: border-box;
 }
 
 .logo {
-  height: 70px; /* logo plus petit */
+  height: 40px; /* logo plus petit */
+  width: auto;  /* pour garder les proportions */
 }
 
 nav a {
-  margin-left: 20px;
+  margin-left: 15px;
   color: #f2f2f2;
   text-decoration: none;
-  font-size: 18px; /* un peu plus petit */
+  font-size: 16px; /* plus petit pour le menu */
+  line-height: 60px; /* alignement vertical dans le header */
 }
 
 nav a:hover {
